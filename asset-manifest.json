@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Crime-Reporting-System/static/css/main.ccc5bcee.css",
+    "main.js": "/Crime-Reporting-System/static/js/main.d9efa0a8.js",
+    "static/js/453.c814852e.chunk.js": "/Crime-Reporting-System/static/js/453.c814852e.chunk.js",
+    "index.html": "/Crime-Reporting-System/index.html",
+    "main.ccc5bcee.css.map": "/Crime-Reporting-System/static/css/main.ccc5bcee.css.map",
+    "main.d9efa0a8.js.map": "/Crime-Reporting-System/static/js/main.d9efa0a8.js.map",
+    "453.c814852e.chunk.js.map": "/Crime-Reporting-System/static/js/453.c814852e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ccc5bcee.css",
+    "static/js/main.d9efa0a8.js"
+  ]
+}

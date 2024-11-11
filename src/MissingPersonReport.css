@@ -1,0 +1,84 @@
+/* src/MissingPersonReport.css */
+
+.missing-person-report-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f7f9fc;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .missing-person-report-container h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  .missing-person-report-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  
+  .missing-person-report-form label {
+    font-size: 0.9rem;
+    color: #333;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .missing-person-report-form input,
+  .missing-person-report-form textarea {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .missing-person-report-form input:focus,
+  .missing-person-report-form textarea:focus {
+    border-color: #1abc9c;
+  }
+  
+  .missing-person-report-form textarea {
+    height: 100px;
+    resize: none;
+  }
+  
+  .missing-person-report-form button {
+    padding: 0.8rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #1abc9c;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .missing-person-report-form button:hover {
+    background-color: #16a085;
+  }
+  
+  /* Responsive styling for smaller screens */
+  @media (max-width: 480px) {
+    .missing-person-report-container {
+      padding: 1.5rem;
+    }
+  
+    .missing-person-report-container h2 {
+      font-size: 1.5rem;
+    }
+  
+    .missing-person-report-form input,
+    .missing-person-report-form textarea,
+    .missing-person-report-form button {
+      font-size: 0.9rem;
+      padding: 0.7rem;
+    }
+  }
+  

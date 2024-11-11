@@ -1,0 +1,55 @@
+/* src/Logout.css */
+
+.logout-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f7f9fc;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .logout-container h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .logout-container p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+  }
+  
+  .logout-button {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #e74c3c; /* Red button for logout */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    background-color: #c0392b; /* Darker red on hover */
+  }
+  
+  /* Responsive styling for smaller screens */
+  @media (max-width: 480px) {
+    .logout-container {
+      padding: 1.5rem;
+    }
+  
+    .logout-container h2 {
+      font-size: 1.5rem;
+    }
+  
+    .logout-button {
+      font-size: 0.9rem;
+      padding: 0.7rem 1.5rem;
+    }
+  }
+  

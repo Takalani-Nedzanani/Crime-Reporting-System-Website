@@ -15,7 +15,7 @@ function App() {
     <Router>
       <Navbar />
       <div>
-        {/* <h1>Crime Reporting System</h1> */}
+        
         <Routes>
           <Route path="/signup" element={<Signup />} />
           <Route path="/login" element={<Login />} />
